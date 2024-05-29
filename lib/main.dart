@@ -5,9 +5,10 @@ import 'package:studentapp/screens/homepage.dart';
 void main() {
   runApp(
     MaterialApp(
+      theme: ThemeData(fontFamily: 'marc'),
       debugShowCheckedModeBanner: false,
       routes: {
-        '/': (context) => home_page(),
+        '/': (context) => homepage(),
         'add_page': (context) => adddatapage(),
       },
     ),
